@@ -49,11 +49,6 @@ h1 {
     height: 2px;
 }
 
-.col1 {
-    float: right;
-    margin-right: 20px;
-}
-
 .leftSection {
     float: left;
     margin-right: 2px;
@@ -85,7 +80,7 @@ h1 {
     color: white;
     background: deepskyblue;
     border-radius: 40px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: -25px;
     padding: 7px 30px;
     transition: background 0.5s ease-in;
@@ -93,6 +88,11 @@ h1 {
 
 .grade :hover {
     background: chartreuse;
+}
+
+.col1{
+    float: right;
+    margin-right: 2px;
 }
 
 
