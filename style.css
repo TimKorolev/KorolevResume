@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Arial", sans-serif;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name > h1 {
+    font-size: xx-large;
+    font-family: "Calibri Light", sans-serif;
+    color: white;
+    background: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding-left: 35px;
+}
+
+.profession {
+    background: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.blueTable > h1 {
+    font-size: x-large;
+    font-family: "Calibri Light", sans-serif;
+    color: white;
+    background: deepskyblue;
+    border-radius: 20px;
+    padding: 5px 20px;
+    transition: background 0.5s ease-out;
+}
+
+.blueTable :hover {
+    background: chartreuse;
+}
+
+.divider {
+    background: gray;
+    height: 2px;
+}
+
+.col1 {
+    float: right;
+    margin-right: 20px;
+}
+
+.leftSection {
+    float: left;
+    margin-right: 2px;
+}
+
+.rightSection {
+    float: left;
+}
+
+.work {
+    color: white;
+    background: black;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.study > h1 {
+    color: white;
+    background: black;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.grade > h1 {
+    font-family: "Calibri Light", sans-serif;
+    color: white;
+    background: deepskyblue;
+    border-radius: 40px;
+    margin-left: 300px;
+    margin-top: -25px;
+    padding: 7px 30px;
+    transition: background 0.5s ease-in;
+}
+
+.grade :hover {
+    background: chartreuse;
+}
+
+
+
+
+
+
+
