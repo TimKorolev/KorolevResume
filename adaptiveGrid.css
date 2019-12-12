@@ -1,6 +1,7 @@
 .mainSection {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 600px));
+    grid-gap: 20px 20px;
 }
 
 .name {
@@ -17,17 +18,10 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 600px));
     h1 {
         font-size: small;
     }
-   .courses li {
+
+   li {
      font-size: x-small;
    } 
-
-    .col1 li {
-        font-size: x-small;
-    }
-
-.col2 li {
-        font-size: x-small;
-    }
 
     p {
         font-size: x-small;
@@ -44,7 +38,4 @@ font-size: small;
 .study > h1 {
 font-size: small;
 }
-
-
-
 }
