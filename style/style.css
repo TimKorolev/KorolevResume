@@ -1,19 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700|Poiret+One&display=swap&subset=cyrillic');
+
 * {
     margin: 0;
 }
 
+li {
+    font-family: "Comfortaa", cursive;
+}
+
 h1 {
-    font-family: "Arial", sans-serif;
+    font-family: "Poiret ONE", cursive;
     font-size: large;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.name > h1 {
+.topSection > h1 {
     font-size: xx-large;
-    font-family: "Calibri Light", sans-serif;
+    font-family: "Poiret ONE", cursive;
     color: white;
-    background: black;
+    background: #353335;
     display: flex;
     align-items: center;
     margin: 0px;
@@ -22,34 +29,50 @@ h1 {
     padding-bottom: 15px;
 }
 
-.profession {
+.middleSection {
     background: white;
     display: flex;
     align-items: center;
     padding: 5px 15px;
 }
 
-.blueTable > h1 {
+.profession > h1 {
     font-size: x-large;
-    font-family: "Calibri Light", sans-serif;
+    font-family: "Poiret ONE", cursive;
     color: white;
     background: deepskyblue;
     border-radius: 20px;
     padding: 5px 20px;
     transition: background 0.5s ease-out;
+    max-width: 400px;
 }
 
-.blueTable :hover {
+.profession :hover {
+    background: chartreuse;
+}
+
+.contacts > h1 {
+    font-size: x-large;
+    font-family: "Poiret ONE", cursive;
+    color: white;
+    background: deepskyblue;
+    border-radius: 20px;
+    padding: 5px 20px;
+    transition: background 0.5s ease-out;
+    max-width: 250px;
+}
+
+.contacts :hover {
     background: chartreuse;
 }
 
 .divider {
-    background: gray;
+    background: #353335;
     height: 2px;
 }
 
 .mainSection {
-   padding: 0px 5px;
+    padding: 0px 5px;
 }
 
 .leftSection {
@@ -62,7 +85,7 @@ h1 {
 
 .work {
     color: white;
-    background: black;
+    background: #353335;
     border-radius: 20px;
     padding: 10px 10px;
     margin: 10px 0px;
@@ -70,15 +93,13 @@ h1 {
 
 .study > h1 {
     color: white;
-    background: black;
+    background: #353335;
     border-radius: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 .grade > h1 {
-    font-family: "Calibri Light", sans-serif;
+    font-family: "Poiret ONE", cursive;
     color: white;
     background: deepskyblue;
     border-radius: 40px;
@@ -92,7 +113,7 @@ h1 {
     background: chartreuse;
 }
 
-.col1{
+.softSkill {
     float: right;
     margin-right: 2px;
 }
