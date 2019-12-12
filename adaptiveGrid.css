@@ -3,10 +3,23 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 600px));
 }
 
+.name {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 600px));
+}
+
+.profession {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 600px));
+}
+
 @media screen and (max-width: 350px) {
     h1 {
         font-size: small;
     }
+   .courses li {
+     font-size: x-small;
+   } 
 
     .col1 li {
         font-size: x-small;
@@ -21,7 +34,7 @@
     }
 
  .name > h1 {
-font-size: small;
+font-size: large;
 }
 
  .blueTable > h1 {
@@ -31,5 +44,7 @@ font-size: small;
 .study > h1 {
 font-size: small;
 }
+
+
 
 }
