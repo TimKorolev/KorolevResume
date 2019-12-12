@@ -15,4 +15,12 @@
     p {
         font-size: x-small;
     }
+
+ .name > h1 {
+font-size: small;
+}
+
+ .blueTable > h1 {
+font-size: small;
+}
 }
