@@ -1,14 +1,18 @@
 .mainSection {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 600px));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 600px));
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
     h1 {
         font-size: small;
     }
 
-    li {
+    .col1 li {
+        font-size: x-small;
+    }
+
+.col2 li {
         font-size: x-small;
     }
 
@@ -23,4 +27,9 @@ font-size: small;
  .blueTable > h1 {
 font-size: small;
 }
+
+.study > h1 {
+font-size: small;
+}
+
 }
