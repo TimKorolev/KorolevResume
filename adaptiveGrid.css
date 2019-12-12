@@ -5,7 +5,7 @@
 
 .name {
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(300px, 600px));
+grid-template-columns: repeat(auto-fill, minmax(300px, 3000px));
 }
 
 .profession {
