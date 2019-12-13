@@ -1,6 +1,6 @@
 .mainSection {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 800px));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 750px));
     grid-gap: 20px 20px;
 }
 
@@ -11,22 +11,32 @@
 
 .middleSection {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 800px));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 750px));
     grid-gap: 5px 5px;
 }
 
 .skills {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 250px));
+	grid-template-columns: repeat(auto-fill, minmax(220px, 220px));
         grid-gap: 5px 5px;
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
 
     h1 {
         font-size: small;
     }
 
-    .skills .skill > p {
+li {
+        font-size: x-small;
+    }
+
+.skills {
+	grid-template-columns: repeat(auto-fill, minmax(120px, 150px));
+	justify-content: center;
+}
+
+    .skill > p {
         font-size: x-small;
     }
 
@@ -38,14 +48,14 @@
         font-size: small;
         margin-top: 1px;
         margin-bottom: 1px;
-	max-width: 500px;
+	max-width: 750px;
     }
 
     .contacts > h1 {
         font-size: small;
         margin-top: 0px;
 	margin-bottom: 1px;
-	max-width: 500px;
+	max-width: 750px;
     }
 
     .study > h1 {
