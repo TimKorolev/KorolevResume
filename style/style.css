@@ -18,23 +18,20 @@ h1 {
 
 .topSection > h1 {
     font-size: xx-large;
-    font-family: "Poiret ONE", cursive;
+    font-family: "Comfortaa", cursive;
     color: white;
     background: #353335;
     display: flex;
     align-items: center;
     margin: 0px;
-    padding-right: 35px;
-    padding-left: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 5px 5px;
 }
 
 .middleSection {
     background: white;
     display: flex;
     align-items: center;
-    padding: 5px 15px;
+    padding: 5px 5px;
 }
 
 .profession > h1 {
