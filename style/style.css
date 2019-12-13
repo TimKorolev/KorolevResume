@@ -24,6 +24,7 @@ h1 {
     display: flex;
     align-items: center;
     margin: 0px;
+    padding-right: 35px;
     padding-left: 35px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -75,12 +76,21 @@ h1 {
     padding: 0px 5px;
 }
 
-.leftSection {
-    float: left;
+.skills{
+padding: 5px 15px;
+	float: bottom;
+        margin: 0px;
 }
 
-.rightSection {
-    float: left;
+.skill {
+    font-family: "Comfortaa", cursive;
+    color: #353335;
+    border-color: deepskyblue;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 9px 9px;
+    margin: 2px 2px;
 }
 
 .work {
@@ -113,10 +123,7 @@ h1 {
     background: chartreuse;
 }
 
-.softSkill {
-    float: right;
-    margin-right: 2px;
-}
+
 
 
 
