@@ -9,6 +9,10 @@ li {
     font-family: "Comfortaa", cursive;
 }
 
+p {
+    font-family: "Comfortaa", cursive;
+}
+
 h1 {
     font-family: "Poiret ONE", cursive;
     font-size: large;
@@ -24,7 +28,7 @@ h1 {
     display: flex;
     align-items: center;
     margin: 0px;
-    padding: 5px 5px;
+    padding: 20px 5px;
 }
 
 .middleSection {
@@ -49,24 +53,9 @@ h1 {
     background: chartreuse;
 }
 
-.contacts > h1 {
-    font-size: x-large;
-    font-family: "Poiret ONE", cursive;
-    color: white;
-    background: deepskyblue;
-    border-radius: 20px;
-    padding: 5px 20px;
-    transition: background 0.5s ease-out;
-    max-width: 300px;
-}
-
-.contacts :hover {
-    background: chartreuse;
-}
-
 .divider {
-    background: #353335;
-    height: 2px;
+    background: gray;
+    height: 1px;
 }
 
 .mainSection {
@@ -74,8 +63,6 @@ h1 {
 }
 
 .skills{
-display: flex;
-    align-items: center;
 padding: 5px 15px;
 	float: bottom;
 }
@@ -104,6 +91,20 @@ padding: 5px 15px;
     border-radius: 20px;
     padding: 20px;
 }
+
+.photo {
+  width: auto;
+  height: 130%;
+}
+
+.myPhoto {
+justify-content: center;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
 
 .grade > h1 {
     font-family: "Poiret ONE", cursive;
