@@ -6,15 +6,17 @@
 
 li {
     font-family: "Comfortaa", cursive;
+    font-size: small;
 }
 
 p {
     font-family: "Comfortaa", cursive;
+    font-size: small;
 }
 
 h1 {
     font-family: "Poiret ONE", cursive;
-    font-size: large;
+    font-size: medium;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -38,7 +40,7 @@ h1 {
 }
 
 .profession > h1 {
-    font-size: x-large;
+    font-size: medium;
     font-family: "Poiret ONE", cursive;
     color: white;
     background: deepskyblue;
@@ -74,6 +76,11 @@ h1 {
     border-style: solid;
     border-radius: 20px;
     padding: 9px 9px;
+    max-width: 100px;
+    min-height: 25px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .work {
@@ -84,24 +91,37 @@ h1 {
     margin: 10px 0px;
 }
 
+.work > h1 {
+    font-size: small;
+}
+.skill > h1 {
+    font-size: small;
+}
+
 .study > h1 {
     color: white;
     background: #353335;
     border-radius: 20px;
     padding: 20px;
+    font-size: small;
 }
 
 .photo {
-    width: auto;
+    width: 300px;
     height: 130%;
 }
 
-.myPhoto {
-    justify-content: center;
+.myFrame {
     width: 300px;
     height: 300px;
     overflow: hidden;
     border-radius: 50%;
+}
+
+.myPhoto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 
@@ -114,6 +134,7 @@ h1 {
     margin-top: -25px;
     padding: 7px 30px;
     transition: background 0.5s ease-in;
+    font-size: small;
 }
 
 .grade :hover {

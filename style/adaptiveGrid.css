@@ -1,7 +1,7 @@
 .mainSection {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 600px));
-    grid-gap: 2px 2px;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 580px));
+    grid-gap: 5px 5px;
 }
 
 .topSection {
@@ -11,19 +11,19 @@
 
 .middleSection {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 600px));
+    grid-template-columns: repeat(auto-fill, minmax(50px, 580px));
     grid-gap: 2px 2px;
 }
 
 .contacts {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 180px));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 120px));
     grid-gap: 2px 2px;
 }
 
 .skills {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 220px));
+    grid-template-columns: repeat(auto-fill, minmax(90px, 150px));
     grid-gap: 2px 2px;
 }
 
@@ -71,5 +71,9 @@
 
     .study > h1 {
         font-size: small;
+    }
+
+    .secondSection{
+        max-width: 1000px;
     }
 }
