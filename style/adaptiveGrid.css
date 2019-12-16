@@ -49,7 +49,7 @@
     }
 
     .skills {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 130px));
+        grid-template-columns: repeat(auto-fill, minmax(50px, 80px));
         justify-content: center;
     }
 
