@@ -9,6 +9,11 @@ li {
     font-size: small;
 }
 
+p {
+    font-family: "Comfortaa", cursive;
+    font-size: small;
+}
+
 h1 {
     font-family: "Poiret ONE", cursive;
     font-size: medium;
@@ -93,6 +98,17 @@ h1 {
     font-size: small;
 }
 
+.spentTime > h1 {
+    font-family: "Poiret ONE", cursive;
+    color: white;
+    background: deepskyblue;
+    border-radius: 40px;
+    margin-left: 300px;
+    margin-top: -30px;
+    padding: 7px 10px;
+    font-size: small;
+}
+
 .skill > h1 {
     font-size: small;
 }
@@ -103,6 +119,10 @@ h1 {
     border-radius: 20px;
     padding: 20px;
     font-size: small;
+}
+
+.study{
+margin: 20px 0px;
 }
 
 .photo {
@@ -137,16 +157,13 @@ h1 {
     color: white;
     background: deepskyblue;
     border-radius: 40px;
-    margin-left: 200px;
-    margin-top: -25px;
-    padding: 7px 30px;
-    transition: background 0.5s ease-in;
+    margin-left: 310px;
+    margin-right: 10px;
+    margin-top: -53px;
+    padding: 7px 10px;
     font-size: small;
 }
 
-.grade :hover {
-    background: chartreuse;
-}
 
 
 

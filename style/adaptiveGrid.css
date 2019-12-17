@@ -30,6 +30,7 @@
 @media screen and (max-width: 600px) {
 
     .contacts {
+	padding: 0px 40px;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
         grid-gap: 2px 2px;
