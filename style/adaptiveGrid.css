@@ -33,6 +33,11 @@
     justify-content: center;
 }
 
+.topSection .profession  h1 {
+    font-size: medium;
+    justify-content: center;
+}
+
     h1 {
         font-size: small;
     }
@@ -61,22 +66,22 @@
         font-size: large;
     }
 
-    .profession > h1 {
-        font-size: small;
+    .feedback > h1 {
+        font-size: medium;
         margin-top: 1px;
         margin-bottom: 1px;
         max-width: 750px;
     }
 
 .getForPrint > h1 {
-        font-size: small;
+        font-size: medium;
         margin-top: 1px;
         margin-bottom: 1px;
         max-width: 750px;
     }
 
 .contacts > h1 {
-        font-size: small;
+        font-size: medium;
         margin-top: 1px;
         margin-bottom: 1px;
         max-width: 750px;

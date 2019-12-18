@@ -32,6 +32,17 @@ h1 {
     padding: 20px 5px;
 }
 
+.topSection .profession > h1 {
+    font-size: xx-large;
+    font-family: "Comfortaa", cursive;
+    color: white;
+    background: #353335;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 20px 5px;
+}
+
 .middleSection {
     background: white;
     display: flex;
@@ -39,14 +50,14 @@ h1 {
     padding: 5px 5px;
 }
 
-.profession > h1 {
+	.feedback > h1 {
     font-size: medium;
     font-family: "Poiret ONE", cursive;
     color: white;
-    background: linear-gradient(90deg, #46a5fa, #1e8cfa);
+    background: linear-gradient(90deg, #1e8cfa, #be41aa);
     border-radius: 20px;
     padding: 10px 20px;
-    transition: background 0.5s ease-in;
+    transition: background 2.0s easeOutCubic;
     max-width: 300px;
 }
 
@@ -54,7 +65,7 @@ h1 {
     font-size: medium;
     font-family: "Poiret ONE", cursive;
     color: white;
-    background: linear-gradient(90deg, #1e8cfa, #be41aa);
+    background: linear-gradient(90deg, #46a5fa, #1e8cfa);
     border-radius: 20px;
     padding: 10px 20px;
     transition: background 2.0s easeOutCubic;
