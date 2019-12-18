@@ -43,15 +43,33 @@ h1 {
     font-size: medium;
     font-family: "Poiret ONE", cursive;
     color: white;
-    background: deepskyblue;
+    background: linear-gradient(90deg, #46a5fa, #1e8cfa);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background 0.5s ease-in;
+    max-width: 300px;
+}
+
+	.getForPrint > h1 {
+    font-size: medium;
+    font-family: "Poiret ONE", cursive;
+    color: white;
+    background: linear-gradient(90deg, #1e8cfa, #be41aa);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background 2.0s easeOutCubic;
+    max-width: 300px;
+}
+
+.contacts > h1 {
+    font-size: medium;
+    font-family: "Poiret ONE", cursive;
+    color: white;
+    background: linear-gradient(90deg, #be41aa, #fa3264);
     border-radius: 20px;
     padding: 10px 20px;
     transition: background 0.5s ease-out;
     max-width: 300px;
-}
-
-.profession :hover {
-    background: chartreuse;
 }
 
 .divider {
@@ -71,7 +89,7 @@ h1 {
 .skill {
     font-family: "Comfortaa", cursive;
     color: #353335;
-    border-color: deepskyblue;
+    border-color: #46a5fa;
     border-width: 1px;
     border-style: solid;
     border-radius: 20px;
@@ -99,7 +117,7 @@ h1 {
 .spentTime > h1 {
     font-family: "Poiret ONE", cursive;
     color: white;
-    background: deepskyblue;
+    background: linear-gradient(90deg, #1e8cfa, #be41aa);
     border-radius: 40px;
     margin-top: 10px;
     padding: 7px 10px;
@@ -154,7 +172,7 @@ float: bottom;
 .grade > h1 {
     font-family: "Poiret ONE", cursive;
     color: white;
-    background: deepskyblue;
+    background: linear-gradient(90deg, #46a5fa, #1e8cfa);
     border-radius: 40px;
     margin-top: 10px;
     padding: 7px 10px;
