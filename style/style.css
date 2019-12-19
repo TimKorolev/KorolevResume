@@ -9,13 +9,17 @@ li {
     font-size: small;
 }
 
+.courses li {
+font-size: medium;
+}
+
 p {
     font-family: "Comfortaa", cursive;
     font-size: small;
 }
 
 h1 {
-    font-family: "Poiret ONE", cursive;
+    font-family: "Comfortaa", cursive;
     font-size: medium;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -52,35 +56,38 @@ h1 {
 
 	.feedback > h1 {
     font-size: medium;
-    font-family: "Poiret ONE", cursive;
+    font-family: "Comfortaa", cursive;
     color: white;
     background: linear-gradient(90deg, #1e8cfa, #be41aa);
     border-radius: 20px;
     padding: 10px 20px;
     transition: background 2.0s easeOutCubic;
     max-width: 300px;
+    
 }
 
 	.getForPrint > h1 {
     font-size: medium;
-    font-family: "Poiret ONE", cursive;
+    font-family: "Comfortaa", cursive;
     color: white;
     background: linear-gradient(90deg, #46a5fa, #1e8cfa);
     border-radius: 20px;
     padding: 10px 20px;
     transition: background 2.0s easeOutCubic;
     max-width: 300px;
+    
 }
 
 .contacts > h1 {
     font-size: medium;
-    font-family: "Poiret ONE", cursive;
+    font-family: "Comfortaa", cursive;
     color: white;
     background: linear-gradient(90deg, #be41aa, #fa3264);
     border-radius: 20px;
     padding: 10px 20px;
     transition: background 0.5s ease-out;
     max-width: 300px;
+    
 }
 
 .divider {
@@ -98,6 +105,9 @@ h1 {
 }
 
 .skill {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Comfortaa", cursive;
     color: #353335;
     border-color: #46a5fa;
@@ -107,6 +117,7 @@ h1 {
     padding: 9px 9px;
     max-width: 90px;
     min-height: 25px;
+    
 }
 
 .skill > p {
@@ -119,6 +130,7 @@ h1 {
     border-radius: 20px;
     padding: 10px;
     margin: 10px 0px;
+    
 }
 
 .work > h1 {
@@ -126,7 +138,7 @@ h1 {
 }
 
 .spentTime > h1 {
-    font-family: "Poiret ONE", cursive;
+    font-family: "Comfortaa", cursive;
     color: white;
     background: linear-gradient(90deg, #1e8cfa, #be41aa);
     border-radius: 40px;
@@ -151,11 +163,13 @@ float: bottom;
     border-radius: 20px;
     padding:10px;
     margin-bottom: 10px;
+    
 }
 
 .photo {
     width: 300px;
     height: 130%;
+    
 }
 
 .myFrame {
@@ -181,7 +195,7 @@ float: bottom;
 }
 
 .grade > h1 {
-    font-family: "Poiret ONE", cursive;
+    font-family: "Comfortaa", cursive;
     color: white;
     background: linear-gradient(90deg, #46a5fa, #1e8cfa);
     border-radius: 40px;
