@@ -13,6 +13,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50px, 580px));
     grid-gap: 2px 2px;
+    min-height: 200px;
 }
 
 .skills {
@@ -22,6 +23,10 @@
 }
 
 @media screen and (max-width: 600px) {
+
+.middleSection {
+    min-height: 130px;
+}
 
     .topSection {
         display: grid;
