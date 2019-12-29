@@ -4,219 +4,137 @@
     margin: 0;
 }
 
-li {
-    font-family: "Comfortaa", cursive;
+h1 {
     font-size: small;
-}
-
-.courses li {
-font-size: medium;
 }
 
 p {
-    font-family: "Comfortaa", cursive;
     font-size: small;
 }
 
-h1 {
-    font-family: "Comfortaa", cursive;
-    font-size: medium;
-    margin-top: 10px;
-    margin-bottom: 10px;
+li {
+    font-size: small;
 }
 
-.topSection .name > h1 {
-    font-size: xx-large;
+.Section {
     font-family: "Comfortaa", cursive;
+    display: flex;
+}
+
+.TopSection {
     color: white;
     background: #353335;
-    display: flex;
-    align-items: center;
-    margin: 0px;
-    padding: 20px 5px;
 }
 
-.topSection .profession > h1 {
-    font-size: xx-large;
+.Button{
     font-family: "Comfortaa", cursive;
     color: white;
-    background: #353335;
-    display: flex;
-    align-items: center;
-    margin: 0px;
-    padding: 20px 5px;
-}
-
-.middleSection {
-    background: white;
-    display: flex;
-    align-items: center;
-    padding: 5px 5px;
-}
-
-	.feedback > h1 {
-    font-size: medium;
-    font-family: "Comfortaa", cursive;
-    color: white;
-    background: linear-gradient(90deg, #1e8cfa, #be41aa);
     border-radius: 20px;
-    padding: 10px 20px;
-    transition: background 2.0s easeOutCubic;
+    transition: background 2.0s ease-out;
     max-width: 300px;
-    
 }
 
-.feedback :hover {
-	padding: 12px 22px;
-	margin: -2px -2px;
-}
-
-	.getForPrint > h1 {
-    font-size: medium;
+.Nameplate{
     font-family: "Comfortaa", cursive;
     color: white;
+    transition: background 2.0s ease-out;
+    max-width: 300px;
+}
+
+.GetForPrint {
     background: linear-gradient(90deg, #46a5fa, #1e8cfa);
-    border-radius: 20px;
-    padding: 10px 20px;
-    transition: background 2.0s easeOutCubic;
-    max-width: 300px;
-    
 }
 
-.getForPrint :hover {
-	padding: 12px 22px;
-	margin: -2px -2px;
+.Feedback {
+    background: linear-gradient(90deg, #1e8cfa, #be41aa);
 }
 
-.contacts > h1 {
-    font-size: medium;
-    font-family: "Comfortaa", cursive;
-    color: white;
+.Contacts > h1 {
     background: linear-gradient(90deg, #be41aa, #fa3264);
     border-radius: 20px;
-    padding: 10px 20px;
-    transition: background 2s ease-out;
-    max-width: 300px;
-    
 }
 
-.contacts :hover {
-	padding: 12px 22px;
-	margin: -2px -2px;
-}
-
-.divider {
+.Divider {
     background: gray;
     height: 1px;
 }
 
-.mainSection {
-    padding: 0px 5px;
+.SubSection {
+    padding: 1px;
 }
 
-.skills {
-    padding: 5px 15px;
-    float: bottom;
+.SubSubSection {
+    padding: 1px;
 }
 
-.skill {
-    display:flex;
+.BorderNameplate {
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Comfortaa", cursive;
     color: #353335;
     border-color: #46a5fa;
     border-width: 1px;
     border-style: solid;
     border-radius: 20px;
-    padding: 9px 9px;
     max-width: 90px;
     min-height: 25px;
-    
 }
 
-.skill > p {
-    font-size: small;
-}
-
-.work {
+.BlackBorder{
     color: white;
     background: #353335;
     border-radius: 20px;
-    padding: 10px;
-    margin: 10px 0px;
-    
+    margin-top: 10px;
 }
 
-.work > h1 {
-    font-size: small;
+.Education{
+    font-family: "Comfortaa", cursive;
+    color: white;
+    background: linear-gradient(90deg, #46a5fa, #1e8cfa);
+    border-radius: 20px;
 }
 
-.spentTime > h1 {
+.Worked{
     font-family: "Comfortaa", cursive;
     color: white;
     background: linear-gradient(90deg, #1e8cfa, #be41aa);
-    border-radius: 40px;
-    margin-top: 10px;
-    padding: 7px 10px;
-    font-size: small;
-}
-
-.skill > h1 {
-    font-size: small;
-}
-
-.study > h1 {
-float: bottom;
-    color: white;
-    font-size: small;
-}
-
-.study {
-float: bottom;
-    background: #353335;
     border-radius: 20px;
-    padding:10px;
-    margin-bottom: 10px;
-    
 }
 
-.photo {
+.TopPhoto {
+    width: 0px;
+    height: 0%;
+}
+
+.TopFrame {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.TopImage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Image {
     width: 300px;
     height: 130%;
-    
 }
 
-.myFrame {
+.Frame {
     width: 300px;
     height: 300px;
     overflow: hidden;
     border-radius: 50%;
 }
 
-.myPhoto {
+.Photo {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-}
-
-.photoTop {
-    width: 0px;
-    height: 130%;
-}
-
-.myPhotoTop {
-    max-height: 0px;
-}
-
-.grade > h1 {
-    font-family: "Comfortaa", cursive;
-    color: white;
-    background: linear-gradient(90deg, #46a5fa, #1e8cfa);
-    border-radius: 40px;
-    margin-top: 10px;
-    padding: 7px 10px;
-    font-size: small;
 }
 
 

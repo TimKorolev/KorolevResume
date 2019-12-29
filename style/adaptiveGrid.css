@@ -1,21 +1,21 @@
-.mainSection {
+.MainSection {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 580px));
-    grid-gap: 5px 5px;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 600px));
+    grid-gap: 1px 1px;
 }
 
-.topSection {
+.TopSection {
     display: grid;
-    grid-template-columns: 580px 0px 2000px;
+    grid-template-columns: 600px 0px 2000px;
 }
 
-.middleSection {
+.MiddleSection {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 580px));
-    grid-gap: 2px 2px;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 600px));
+    grid-gap: 1px 1px;
 }
 
-.skills {
+.Skills {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(90px, 150px));
     grid-gap: 2px 2px;
@@ -23,24 +23,24 @@
 
 @media screen and (max-width: 600px) {
 
-.middleSection {
-    min-height: 130px;
-}
+    .middleSection {
+        min-height: 130px;
+    }
 
     .topSection {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(50px, 580px));
+        grid-template-columns: repeat(auto-fill, minmax(50px, 600px));
     }
 
-.topSection .name  h1 {
-    font-size: xx-large;
-    justify-content: center;
-}
+    .topSection .name h1 {
+        font-size: xx-large;
+        justify-content: center;
+    }
 
-.topSection .profession  h1 {
-    font-size: medium;
-    justify-content: center;
-}
+    .topSection .profession h1 {
+        font-size: medium;
+        justify-content: center;
+    }
 
     h1 {
         font-size: small;
@@ -77,14 +77,14 @@
         max-width: 750px;
     }
 
-.getForPrint > h1 {
+    .getForPrint > h1 {
         font-size: medium;
         margin-top: 1px;
         margin-bottom: 1px;
         max-width: 750px;
     }
 
-.contacts > h1 {
+    .contacts > h1 {
         font-size: medium;
         margin-top: 1px;
         margin-bottom: 1px;
@@ -99,19 +99,19 @@
         max-width: 1000px;
     }
 
-    .photoTop {
+    .TopPhoto {
         width: 100px;
         height: 130%;
     }
 
-    .myFrameTop {
+    .TopFrame {
         width: 100px;
         height: 100px;
         overflow: hidden;
         border-radius: 50%;
     }
 
-    .myPhotoTop {
+    .TopPhoto {
         background: #353335;
         display: flex;
         justify-content: center;
@@ -120,18 +120,16 @@
         padding-bottom: 10px;
     }
 
-    .photo {
+    .Image {
         width: 0px;
     }
 
-    .myFrame {
+    .Frame {
         width: 0px;
         height: 0px;
-        overflow: hidden;
-        border-radius: 50%;
     }
 
-    .myPhoto {
+    .Photo {
         display: flex;
         justify-content: center;
         margin-bottom: 0px;
