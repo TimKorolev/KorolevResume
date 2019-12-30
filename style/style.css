@@ -2,43 +2,49 @@
 
 * {
     margin: 0;
-}
-
-h1 {
-    font-size: small;
-}
-
-p {
-    font-size: small;
-}
-
-li {
+    font-family: "Comfortaa", cursive;
     font-size: small;
 }
 
 .Section {
-    font-family: "Comfortaa", cursive;
     display: flex;
+    padding: 5px;
 }
 
 .TopSection {
     color: white;
     background: #353335;
+    min-height: 30px;
+}
+
+.TopSection h1{
+    font-size: x-large;
 }
 
 .Button{
-    font-family: "Comfortaa", cursive;
     color: white;
     border-radius: 20px;
     transition: background 2.0s ease-out;
     max-width: 300px;
+    padding: 7px;
+    margin: 3px;
 }
 
-.Nameplate{
-    font-family: "Comfortaa", cursive;
+.Button h1{
+    font-size: medium;
+}
+
+.Nameplate {
     color: white;
+    border-radius: 20px;
     transition: background 2.0s ease-out;
     max-width: 300px;
+    padding: 7px;
+    margin: 3px;
+}
+
+.Nameplate h1{
+    font-size: medium;
 }
 
 .GetForPrint {
@@ -49,9 +55,8 @@ li {
     background: linear-gradient(90deg, #1e8cfa, #be41aa);
 }
 
-.Contacts > h1 {
+.Contacts {
     background: linear-gradient(90deg, #be41aa, #fa3264);
-    border-radius: 20px;
 }
 
 .Divider {
@@ -61,6 +66,11 @@ li {
 
 .SubSection {
     padding: 1px;
+}
+
+.SubSection > h1{
+    font-size: medium;
+    margin-bottom: 5px;
 }
 
 .SubSubSection {
@@ -84,39 +94,28 @@ li {
     color: white;
     background: #353335;
     border-radius: 20px;
-    margin-top: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.BlackBorder > h1{
+   font-size: medium;
 }
 
 .Education{
-    font-family: "Comfortaa", cursive;
     color: white;
     background: linear-gradient(90deg, #46a5fa, #1e8cfa);
     border-radius: 20px;
 }
 
 .Worked{
-    font-family: "Comfortaa", cursive;
     color: white;
     background: linear-gradient(90deg, #1e8cfa, #be41aa);
     border-radius: 20px;
 }
 
 .TopPhoto {
-    width: 0px;
-    height: 0%;
-}
-
-.TopFrame {
-    width: 0px;
-    height: 0px;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-.TopImage {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+	display:none;
 }
 
 .Image {
@@ -134,7 +133,6 @@ li {
 .Photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
 

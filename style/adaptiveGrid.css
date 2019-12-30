@@ -6,7 +6,7 @@
 
 .TopSection {
     display: grid;
-    grid-template-columns: 600px 0px 2000px;
+    grid-template-columns: 600px 600px 0px;
 }
 
 .MiddleSection {
@@ -18,120 +18,67 @@
 .Skills {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(90px, 150px));
-    grid-gap: 2px 2px;
+    grid-gap: 1px 1px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1250px) {
 
-    .middleSection {
-        min-height: 130px;
-    }
 
-    .topSection {
+    .Section {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(50px, 600px));
+	justify-content: center;
+	 grid-template-columns: repeat(auto-fill, minmax(400px, 800px));
+    }
+	
+.SubSection {
+	justify-content: center;
     }
 
-    .topSection .name h1 {
-        font-size: xx-large;
-        justify-content: center;
+.SubSubSection {
+	justify-content: center;
     }
 
-    .topSection .profession h1 {
-        font-size: medium;
-        justify-content: center;
-    }
-
-    h1 {
-        font-size: small;
-    }
-
-    li {
-        font-size: x-small;
-    }
-
-    .skills {
-        grid-template-columns: repeat(auto-fill, minmax(50px, 80px));
-        justify-content: center;
-    }
-
-    .skill > p {
-        font-size: xx-small;
-    }
-
-    .skill {
-        padding: 5px 5px;
-        justify-items: center;
-        max-width: 100px;
-        min-height: 20px;
-    }
-
-    .topSection > h1 {
-        font-size: large;
-    }
-
-    .feedback > h1 {
-        font-size: medium;
-        margin-top: 1px;
-        margin-bottom: 1px;
-        max-width: 750px;
-    }
-
-    .getForPrint > h1 {
-        font-size: medium;
-        margin-top: 1px;
-        margin-bottom: 1px;
-        max-width: 750px;
-    }
-
-    .contacts > h1 {
-        font-size: medium;
-        margin-top: 1px;
-        margin-bottom: 1px;
-        max-width: 750px;
-    }
-
-    .study > h1 {
-        font-size: small;
-    }
-
-    .secondSection {
-        max-width: 1000px;
-    }
-
-    .TopPhoto {
-        width: 100px;
-        height: 130%;
-    }
-
-    .TopFrame {
-        width: 100px;
-        height: 100px;
-        overflow: hidden;
-        border-radius: 50%;
-    }
-
-    .TopPhoto {
-        background: #353335;
-        display: flex;
-        justify-content: center;
-        float: left;
-        max-height: 1000px;
-        padding-bottom: 10px;
-    }
-
-    .Image {
-        width: 0px;
-    }
-
-    .Frame {
-        width: 0px;
-        height: 0px;
-    }
-
-    .Photo {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 0px;
-    }
+   .TopSection h1 {
+	text-align: center;
 }
+
+    .Skills {
+        grid-template-columns: repeat(auto-fill, minmax(50px, 80px));
+    }
+
+    .Button{
+	max-width: 800px;
+    }
+
+    .Nameplate {
+	max-width: 800px;
+    }
+	
+    .BlackBorder{
+	max-width: 800px;
+	justify-content: center;
+    }
+
+    .TopImage {
+    width: 100px;
+    height: 130%;
+}
+
+.TopFrame {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.TopPhoto {
+    display: flex;
+    justify-content: center;
+}
+	.Photo {
+	display:none;
+	}
+
+}
+
+
