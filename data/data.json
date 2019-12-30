@@ -1,0 +1,30 @@
+{
+	"name": "Timofei Korolev",
+	"profession": "QA Automation engineer",
+	"contacts": {
+		"phone": "+791111111",
+		"email": "same @mail.com "
+	},
+	"skills": ["sdfsd", "sdfsd", "sdfsd", "sdfsd", "sdfsd", "sdfsd", "sdfsd", "sdfsd", "sdfsd", "sdfsd", "sdfsd"],
+	"educations": [{
+			"university": "ITMO",
+			"department": "Department of Applied Optics",
+			"expireData": "July 2019",
+			" grade": "Master"
+		},
+		{
+			"university": "ITMO",
+			"department": "Department of Applied Optics",
+			"expireData": "July 2017",
+			" grade": "Bachelor"
+		}
+	],
+	"expirience": [{
+		"employer": "PJSC Sberbank",
+		"position": "Middle software developer",
+		"since": "July 2019",
+		"to": "July 2019",
+		"description": "Designing a test model"
+	}],
+	"aboutMe": "I would like to tell some worlds about me"
+}

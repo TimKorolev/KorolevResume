@@ -27,7 +27,7 @@
     .Section {
         display: grid;
 	justify-content: center;
-	 grid-template-columns: repeat(auto-fill, minmax(300px, 800px));
+	 grid-template-columns: repeat(auto-fill, minmax(320px, 800px));
     }
 	
 .SubSection {
@@ -60,6 +60,31 @@
     }
 
     .TopImage {
+    width: 200px;
+    height: 130%;
+}
+
+.TopFrame {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.TopPhoto {
+    display: flex;
+    justify-content: center;
+}
+	.Photo {
+	display:none;
+	}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .TopImage {
     width: 100px;
     height: 130%;
 }
@@ -75,9 +100,6 @@
     display: flex;
     justify-content: center;
 }
-	.Photo {
-	display:none;
-	}
 
 }
 
