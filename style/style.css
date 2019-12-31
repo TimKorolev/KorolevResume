@@ -17,11 +17,11 @@
     min-height: 30px;
 }
 
-.TopSection h1{
+.TopSection h1 {
     font-size: x-large;
 }
 
-.Button{
+.Button {
     color: white;
     border-radius: 20px;
     transition: background 2.0s ease-out;
@@ -30,7 +30,7 @@
     margin: 3px;
 }
 
-.Button h1{
+.Button h1 {
     font-size: medium;
 }
 
@@ -43,7 +43,7 @@
     margin: 3px;
 }
 
-.Nameplate h1{
+.Nameplate h1 {
     font-size: medium;
 }
 
@@ -68,7 +68,7 @@
     padding: 1px;
 }
 
-.SubSection > h1{
+.SubSection > h1 {
     font-size: medium;
     margin-bottom: 5px;
 }
@@ -90,7 +90,7 @@
     min-height: 25px;
 }
 
-.BlackBorder{
+.BlackBorder {
     color: white;
     background: #353335;
     border-radius: 20px;
@@ -98,25 +98,25 @@
     margin: 5px;
 }
 
-.BlackBorder > h1{
-   font-size: medium;
+.BlackBorder > h1 {
+    font-size: medium;
 }
 
-.Education{
+.Education {
     color: white;
     background: linear-gradient(90deg, #46a5fa, #1e8cfa);
     border-radius: 20px;
 }
 
-.Worked{
+.Worked {
     color: white;
     background: linear-gradient(90deg, #1e8cfa, #be41aa);
     border-radius: 20px;
 }
 
 .TopPhoto {
-	display:none;
-	padding: 5px
+    display: none;
+    padding: 5px
 }
 
 .Image {
