@@ -1,58 +1,58 @@
 {
- "name":"Timofei Korolev",
- "profession":"QA Automation engineer",
- "contacts": {
-   "phone":"+791111111",
-   "email":"same @mail.com"
+  "name": "Timofei Korolev",
+  "profession": "QA Automation engineer",
+  "contacts": {
+    "phone": "+791111111",
+    "email": "same @mail.com"
   },
- "skills": [
-   "Software testing",
-   "Software development",
-   "Test Planning",
-   "Manual testing",
-   "BDD",
-   "Quality Assurance",
-   "Scrum",
-   "Functional testing",
-   "Agile",
-   "Jira",
-   "Jenkins",
-   "Java 8 SE",
-   "SQL",
-   "HTML",
-   "XML",
-   "Git",
-   "Python",
-   "Selenium",
-   "Jdbc",
-   "Junit",
-   "Json",
-   "Maven",
-   "Selenide",
-   "TestNG"
+  "skills": [
+    "Software testing",
+    "Software development",
+    "Test Planning",
+    "Manual testing",
+    "BDD",
+    "Quality Assurance",
+    "Scrum",
+    "Functional testing",
+    "Agile",
+    "Jira",
+    "Jenkins",
+    "Java 8 SE",
+    "SQL",
+    "HTML",
+    "XML",
+    "Git",
+    "Python",
+    "Selenium",
+    "Jdbc",
+    "Junit",
+    "Json",
+    "Maven",
+    "Selenide",
+    "TestNG"
   ],
- "educations": [
+  "educations": [
     {
-     "university":"ITMO",
-     "department":"Department of Applied Optics",
-     "expireData":"July 2019",
-     "grade":"Master"
+      "university": "ITMO",
+      "department": "Department of Applied Optics",
+      "expireData": "July 2019",
+      "grade": "Master"
     },
     {
-     "university":"ITMO",
-     "department":"Department of Applied Optics",
-     "expireData":"July 2017",
-     "grade":"Bachelor"
+      "university": "ITMO",
+      "department": "Department of Applied Optics",
+      "expireData": "July 2017",
+      "grade": "Bachelor"
     }
   ],
- "expirience": [
+  "experience": [
     {
-     "employer":"PJSC Sberbank",
-     "position":"Middle software developer",
-     "since":"July 2019",
-     "to":"July 2019",
-     "description":"Designing a test model"
+      "employer": "PJSC Sberbank",
+      "position": "Middle software developer",
+      "since": "July 2019",
+      "to": "",
+      "description": "Designing a test model"
     }
   ],
- "aboutMe":"I would like to tell some worlds about me"
+  "aboutMe": "I would like to tell some words about me!"
 }
