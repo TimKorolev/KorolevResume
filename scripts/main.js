@@ -60,20 +60,31 @@ $.getJSON('data/data.json', function (data) {
     document.getElementById("courses").innerHTML = coursesData;
 });
 
+let getForPrintButton = document.getElementById('getForPrintButton');
+let feedbackButton = document.getElementById('feedbackButton');
+let contactsButton = document.getElementById('contactsButton');
 
-let btnFeedback = document.querySelector('.feedback');
-let feedbackPopup = document.querySelector('.feedbackPopup');
-let closeFeedbackPopupBtn = document.querySelector('.feedbackPopup .close');
+getForPrintButton.addEventListener('click', function () {
 
-btnFeedback.addEventListener('click', function () {
-    feedbackPopup.style.display = 'block'
-});
-closeFeedbackPopupBtn.addEventListener('click', function () {
-    feedbackPopup.style.display = 'none'
 });
 
-window.onclick = function (e) {
-    if (e.target == feedbackPopup) {
-        feedbackPopup.style.display = "none";
-    }
-}
+feedbackButton.addEventListener('click', function () {
+    let form = '<form action="mailto:адрес вашей электронной почты" enctype="text/plain" class="Form">\n' +
+        '<label for="name">Name</label>' +
+        '<input type="text" class="FormField">' +
+        '<label for="company">Company</label>' +
+        '<input type="text" class="FormField">' +
+        '<label for="email">E-mail</label>' +
+        '<input type="email" class="FormField">' +
+        '<label for="phone">Phone</label>' +
+        '<input type="text" class="FormField">' +
+        '<input type="submit" value="Отправить" class="FormField">' +
+        '</form>';
+    document.getElementById("feedbackButton").innerHTML = form;
+    feedbackButton.style.minHeight = "100px";
+});
+
+
+contactsButton.addEventListener('click', function () {
+
+});

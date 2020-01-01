@@ -21,6 +21,12 @@
     grid-gap: 1px 1px;
 }
 
+.Form {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30px, 300px));
+    grid-gap: 5px 5px;
+}
+
 @media screen and (max-width: 1250px) {
 
 

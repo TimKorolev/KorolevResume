@@ -136,6 +136,17 @@
     justify-content: center;
 }
 
+.Form{
+    justify-content: center;
+    padding: 5px;
+}
+
+.FormField {
+    border-radius: 20px;
+    border-width: 0px;
+    height: 25px;
+}
+
 
 
 
