@@ -26,6 +26,13 @@
     "Selenide",
     "TestNG"
   ],
+  "courses": [
+    "Java core (epam)",
+    "Java automation test (epam)",
+    "Algorithms: theory and practice (stepik)",
+    "Algorithms: data structures (stepik)",
+    "Python programming (stepik)"
+  ],
   "educations": [
     {
       "university": "ITMO",

@@ -7,6 +7,7 @@ $.getJSON('data/data.json', function (data) {
     let educations = data.educations;
     let experiences = data.experience;
     let aboutMe = data.aboutMe;
+    let courses = data.courses;
 
     document.getElementById("name").innerHTML = name;
     document.getElementById("profession").innerHTML = profession;
@@ -51,6 +52,12 @@ $.getJSON('data/data.json', function (data) {
     document.getElementById("experience").innerHTML = experienceData;
 
     document.getElementById("aboutMe").innerHTML = aboutMe;
+
+    var coursesData = '';
+    for (let i = 0; i < courses.length; i++) {
+        coursesData += '<li>' + courses[i] + '</li>'
+    }
+    document.getElementById("courses").innerHTML = coursesData;
 });
 
 
