@@ -59,6 +59,11 @@
     background: linear-gradient(90deg, #be41aa, #fa3264);
 }
 
+.FormButton {
+    color: white;
+    margin-top: 5px;
+}
+
 .Divider {
     background: gray;
     height: 1px;

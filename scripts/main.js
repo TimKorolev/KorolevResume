@@ -78,13 +78,18 @@ feedbackButton.addEventListener('click', function () {
         '<input type="email" class="FormField">' +
         '<label for="phone">Phone</label>' +
         '<input type="text" class="FormField">' +
-        '<input type="submit" value="Отправить" class="FormField">' +
+        '<input type="submit" value="Отправить" class="Button FormButton">' +
         '</form>';
     document.getElementById("feedbackButton").innerHTML = form;
-    feedbackButton.style.minHeight = "100px";
 });
 
 
 contactsButton.addEventListener('click', function () {
 
 });
+
+window.onclick = function (e) {
+    if(e.target == feedbackPopup){
+        feedbackPopup.style.display="none";
+    }
+}
