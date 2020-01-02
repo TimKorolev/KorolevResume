@@ -89,7 +89,7 @@ contactsButton.addEventListener('click', function () {
 });
 
 window.onclick = function (e) {
-    if(e.target == feedbackPopup){
-        feedbackPopup.style.display="none";
+    if(e.target === feedbackButton){
+        document.getElementById("feedbackButton").innerHTML = '<h1> Feedback </h1>';
     }
 }
