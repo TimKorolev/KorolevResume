@@ -1,8 +1,11 @@
+let phone = null;
+let email = null;
+
 $.getJSON('data/data.json', function (data) {
     let name = data.name;
     let profession = data.profession;
-    let phone = data.contacts.phone;
-    let email = data.contacts.email;
+    phone = data.contacts.phone;
+    email = data.contacts.email;
     let skills = data.skills;
     let educations = data.educations;
     let experiences = data.experience;
@@ -64,6 +67,7 @@ let getForPrintButton = document.getElementById('getForPrintButton');
 let feedbackButton = document.getElementById('feedbackButton');
 let contactsButton = document.getElementById('contactsButton');
 
+
 getForPrintButton.addEventListener('click', function () {
 
 });
@@ -83,13 +87,21 @@ feedbackButton.addEventListener('click', function () {
     document.getElementById("feedbackButton").innerHTML = form;
 });
 
-
 contactsButton.addEventListener('click', function () {
-
+    let form = '<form class="Form">\n' +
+        '<h2>Phone:</h2>' +
+        '<h2>' + phone + '</h2>' +
+        '<h2>Email:</h2>' +
+        '<h2>' + email + '</h2>' +
+        '</form>';
+    document.getElementById("contactsButton").innerHTML = form;
 });
 
 window.onclick = function (e) {
-    if(e.target === feedbackButton){
+    if (e.target === getForPrintButton || e.target === feedbackButton || e.target === contactsButton) {
+        document.getElementById("getForPrintButton").innerHTML = '<h1> Get for print </h1>';
         document.getElementById("feedbackButton").innerHTML = '<h1> Feedback </h1>';
+        document.getElementById("contactsButton").innerHTML = '<h1> Get contacts </h1>';
     }
-}
+};
+
