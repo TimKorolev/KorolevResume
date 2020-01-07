@@ -68,40 +68,47 @@ let feedbackButton = document.getElementById('feedbackButton');
 let contactsButton = document.getElementById('contactsButton');
 
 
-getForPrintButton.addEventListener('click', function () {
-
+$(document).ready(function(){
+    $("#feedbackButton").click(function(){
+        $("#feedbackButton2").slideToggle("slow");
+        $(this).toggleClass("active");
+    });
 });
 
-feedbackButton.addEventListener('click', function () {
-    let form = '<form action="mailto:адрес вашей электронной почты" enctype="text/plain" class="Form">\n' +
-        '<label for="name">Name</label>' +
-        '<input type="text" class="FormField">' +
-        '<label for="company">Company</label>' +
-        '<input type="text" class="FormField">' +
-        '<label for="email">E-mail</label>' +
-        '<input type="email" class="FormField">' +
-        '<label for="phone">Phone</label>' +
-        '<input type="text" class="FormField">' +
-        '<input type="submit" value="Отправить" class="Button FormButton">' +
-        '</form>';
-    document.getElementById("feedbackButton").innerHTML = form;
-});
+// feedbackButton.addEventListener('click', function () {
+//     let form = '<form action="mailto:адрес вашей электронной почты" enctype="text/plain" class="Form">\n' +
+//         '<label for="name">Name</label>' +
+//         '<input type="text" class="FormField">' +
+//         '<label for="company">Company</label>' +
+//         '<input type="text" class="FormField">' +
+//         '<label for="email">E-mail</label>' +
+//         '<input type="email" class="FormField">' +
+//         '<label for="phone">Phone</label>' +
+//         '<input type="text" class="FormField">' +
+//         '<input type="submit" value="Отправить" class="Button FormButton">' +
+//         '</form>';
+//     document.getElementById("feedbackButton").innerHTML = form;
+// });
+//
+// contactsButton.addEventListener('click', function () {
+//     let form = '<form class="Form">\n' +
+//         '<h2>Phone:</h2>' +
+//         '<h2>' + phone + '</h2>' +
+//         '<h2>Email:</h2>' +
+//         '<h2>' + email + '</h2>' +
+//         '</form>';
+//     document.getElementById("contactsButton").innerHTML = form;
+// });
+//
+// window.onclick = function (e) {
+//     if (e.target === getForPrintButton || e.target === feedbackButton || e.target === contactsButton) {
+//         document.getElementById("getForPrintButton").innerHTML = '<h1> Get for print </h1>';
+//         document.getElementById("feedbackButton").innerHTML = '<h1> Feedback </h1>';
+//         document.getElementById("contactsButton").innerHTML = '<h1> Get contacts </h1>';
+//     }
+// };
 
-contactsButton.addEventListener('click', function () {
-    let form = '<form class="Form">\n' +
-        '<h2>Phone:</h2>' +
-        '<h2>' + phone + '</h2>' +
-        '<h2>Email:</h2>' +
-        '<h2>' + email + '</h2>' +
-        '</form>';
-    document.getElementById("contactsButton").innerHTML = form;
-});
-
-window.onclick = function (e) {
-    if (e.target === getForPrintButton || e.target === feedbackButton || e.target === contactsButton) {
-        document.getElementById("getForPrintButton").innerHTML = '<h1> Get for print </h1>';
-        document.getElementById("feedbackButton").innerHTML = '<h1> Feedback </h1>';
-        document.getElementById("contactsButton").innerHTML = '<h1> Get contacts </h1>';
-    }
-};
+// getForPrintButton.addEventListener('click', function () {
+//
+// });
 
