@@ -1,5 +1,6 @@
 let phone = null;
 let email = null;
+let i = 0;
 
 $.getJSON('data/data.json', function (data) {
     let name = data.name;
@@ -68,11 +69,20 @@ let feedbackButton = document.getElementById('feedbackButton');
 let contactsButton = document.getElementById('contactsButton');
 
 
-$(document).ready(function(){
-    $("#feedbackButton").click(function(){
-        $("#feedbackButton2").slideToggle("slow");
+$(document).ready(function () {
+    $("#feedbackButton").click(function () {
+        if (i%2 === 0)
+        $("#feedbackContent").slideToggle("slow");
         $(this).toggleClass("active");
+        $("#feedbackButton").unbind();
     });
+});
+
+$(document).ready(function () {
+    $("#sendInfoForFeedback").click(function () {
+        $("#feedbackContent").slideToggle("slow");
+        $(this).toggleClass("active");
+    })
 });
 
 // feedbackButton.addEventListener('click', function () {

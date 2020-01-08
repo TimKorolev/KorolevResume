@@ -60,7 +60,7 @@
 }
 
 .FormButton {
-    color: white;
+    color: black;
     margin-top: 5px;
 }
 
@@ -150,6 +150,12 @@
     border-radius: 20px;
     border-width: 0px;
     height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#feedbackContent {
+    display: none;
 }
 
 

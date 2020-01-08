@@ -29,9 +29,19 @@
         </div>
         <div class="Button Feedback" id="feedbackButton">
             <h1> Feedback </h1>
-        </div>
-        <div class="Button Feedback" id="feedbackButton2">
-            <h1> Feedback </h1>
+            <div id="feedbackContent">
+                <form action="mailto:адрес вашей электронной почты" enctype="text/plain" class="Form">
+                    <label for="name">Name</label>
+                    <input type="text" class="FormField">
+                    <label>Company</label>
+                    <input type="text" class="FormField">
+                    <label>E-mail</label>
+                    <input type="email" class="FormField">
+                    <label>Phone</label>
+                    <input type="text" class="FormField">
+                    <input type="submit" value="Отправить" class="Button FormButton" id="sendInfoForFeedback">
+                </form>
+            </div>
         </div>
         <div class="Button Contacts" id="contactsButton">
             <h1>Get contacts</h1>
