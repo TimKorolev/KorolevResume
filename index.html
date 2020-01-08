@@ -26,9 +26,9 @@
     </div>
     <div class="Section" id="contactsForPrint">
         <h1> Phone </h1>
-        <h1 id="phoneForPrint"> </h1>
+        <h1 id="phoneForPrint"></h1>
         <h1> E-mail </h1>
-        <h1 id ="emailForPrint"></h1>
+        <h1 id="emailForPrint"></h1>
     </div>
     <div class="Section MiddleSection" id="middleSection">
         <div class="Button GetForPrint" id="getForPrintButton">
@@ -37,13 +37,13 @@
         <div class="Button Feedback" id="feedbackButton">
             <h1> Get feedback </h1>
             <div id="feedbackContent">
-                <form action="mailto:адрес вашей электронной почты" enctype="text/plain" class="Form">
+                <form method="post" enctype="text/plain" class="Form" id="feedbackForm">
                     <label for="name">Name</label>
-                    <input type="text" class="FormField">
+                    <input type="text" required class="FormField" id="inputName">
                     <label>Company</label>
                     <input type="text" class="FormField">
                     <label>E-mail</label>
-                    <input type="email" class="FormField">
+                    <input type="email" required class="FormField" id="inputEmail">
                     <label>Phone</label>
                     <input type="text" class="FormField">
                     <input type="submit" value="Отправить" class="Button FormButton" id="sendInfoForFeedback">

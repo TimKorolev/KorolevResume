@@ -66,7 +66,9 @@ $.getJSON('data/data.json', function (data) {
     for (let i = 0; i < courses.length; i++) {
         coursesData += '<li>' + courses[i] + '</li>'
     }
+
     document.getElementById("courses").innerHTML = coursesData;
+    document.getElementById("feedbackForm").setAttribute("action", email);
 });
 
 $(document).ready(function () {
