@@ -1,0 +1,83 @@
+@media print {
+
+    @page {
+        size: 8.5in 11in;
+        margin: 1cm
+    }
+
+    #contactsForPrint{
+        display: grid;
+    }
+
+    .TopSection {
+        display: grid;
+        grid-template-columns: 600px 600px 0px;
+    }
+
+    #middleSection {
+        display: none;
+    }
+
+    .Skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(90px, 150px));
+        grid-gap: 1px 1px;
+    }
+
+    .Section {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 800px));
+    }
+
+    .SubSection {
+        justify-content: center;
+    }
+
+    .SubSubSection {
+        justify-content: center;
+    }
+
+    .TopSection h1 {
+        text-align: center;
+    }
+
+    .Skills {
+        grid-template-columns: repeat(auto-fill, minmax(50px, 80px));
+    }
+
+    .Button {
+        max-width: 800px;
+    }
+
+    .Nameplate {
+        max-width: 800px;
+    }
+
+    .BlackBorder {
+        max-width: 800px;
+        justify-content: center;
+    }
+
+    .Photo {
+        display: none;
+    }
+
+    .TopImage {
+        width: 100px;
+        height: 130%;
+    }
+
+    .TopFrame {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .TopPhoto {
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -7,6 +7,7 @@
     <title>Resume</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/adaptiveGrid.css">
+    <link rel="stylesheet" href="style/printStyle.css">
     <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 </head>
 <div>
@@ -23,12 +24,18 @@
             <h1 id="profession"></h1>
         </div>
     </div>
-    <div class="Section MiddleSection">
+    <div class="Section" id="contactsForPrint">
+        <h1> Phone </h1>
+        <h1 id="phoneForPrint"> </h1>
+        <h1> E-mail </h1>
+        <h1 id ="emailForPrint"></h1>
+    </div>
+    <div class="Section MiddleSection" id="middleSection">
         <div class="Button GetForPrint" id="getForPrintButton">
             <h1> Get for print </h1>
         </div>
         <div class="Button Feedback" id="feedbackButton">
-            <h1> Feedback </h1>
+            <h1> Get feedback </h1>
             <div id="feedbackContent">
                 <form action="mailto:адрес вашей электронной почты" enctype="text/plain" class="Form">
                     <label for="name">Name</label>
@@ -45,6 +52,12 @@
         </div>
         <div class="Button Contacts" id="contactsButton">
             <h1>Get contacts</h1>
+            <div id="contactsContent" class="Form">
+                <h2>Phone:</h2>
+                <h2 id="phone"></h2>
+                <h2>E-mail:</h2>
+                <h2 id="email"></h2>
+            </div>
         </div>
     </div>
     <div class="Divider"></div>

@@ -26,6 +26,7 @@
     border-radius: 20px;
     transition: background 2.0s ease-out;
     max-width: 300px;
+    max-height: 400px;
     padding: 7px;
     margin: 3px;
 }
@@ -39,6 +40,7 @@
     border-radius: 20px;
     transition: background 2.0s ease-out;
     max-width: 300px;
+    max-height: 400px;
     padding: 7px;
     margin: 3px;
 }
@@ -148,15 +150,23 @@
 
 .FormField {
     border-radius: 20px;
-    border-width: 0px;
+    border-width: 0;
     height: 25px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-#feedbackContent {
+#contactsContent {
     display: none;
+    grid-gap: 5px 5px;
+    justify-content: center;
 }
+
+#feedbackContent {
+    display: none ;
+}
+
+
 
 
 

@@ -1,6 +1,7 @@
 let phone = null;
 let email = null;
-let i = 0;
+let formLock = false;
+let opening = true;
 
 $.getJSON('data/data.json', function (data) {
     let name = data.name;
@@ -15,8 +16,12 @@ $.getJSON('data/data.json', function (data) {
 
     document.getElementById("name").innerHTML = name;
     document.getElementById("profession").innerHTML = profession;
-    // document.getElementById("phone").innerHTML = phone;
-    // document.getElementById("email").innerHTML = email;
+
+    document.getElementById("phone").innerHTML = phone;
+    document.getElementById("email").innerHTML = email;
+
+    document.getElementById("phoneForPrint").innerHTML = phone;
+    document.getElementById("emailForPrint").innerHTML = email;
 
     var skillData = '';
     for (let i = 0; i < skills.length; i++) {
@@ -64,61 +69,38 @@ $.getJSON('data/data.json', function (data) {
     document.getElementById("courses").innerHTML = coursesData;
 });
 
-let getForPrintButton = document.getElementById('getForPrintButton');
-let feedbackButton = document.getElementById('feedbackButton');
-let contactsButton = document.getElementById('contactsButton');
-
+$(document).ready(function () {
+    $("#contactsButton").click(function () {
+        $("#contactsContent").slideToggle("slow");
+        $(this).toggleClass("active");
+        document.getElementById("contactsContent").style.display = "grid";
+    });
+});
 
 $(document).ready(function () {
     $("#feedbackButton").click(function () {
-        if (i%2 === 0)
-        $("#feedbackContent").slideToggle("slow");
-        $(this).toggleClass("active");
-        $("#feedbackButton").unbind();
+        if (formLock === false) {
+            $("#feedbackContent").slideToggle("slow");
+            $(this).toggleClass("active");
+            if (opening === true) {
+                formLock = true;
+            }
+        }
     });
 });
 
 $(document).ready(function () {
     $("#sendInfoForFeedback").click(function () {
-        $("#feedbackContent").slideToggle("slow");
-        $(this).toggleClass("active");
+        formLock = false;
+        opening = false;
     })
 });
 
-// feedbackButton.addEventListener('click', function () {
-//     let form = '<form action="mailto:адрес вашей электронной почты" enctype="text/plain" class="Form">\n' +
-//         '<label for="name">Name</label>' +
-//         '<input type="text" class="FormField">' +
-//         '<label for="company">Company</label>' +
-//         '<input type="text" class="FormField">' +
-//         '<label for="email">E-mail</label>' +
-//         '<input type="email" class="FormField">' +
-//         '<label for="phone">Phone</label>' +
-//         '<input type="text" class="FormField">' +
-//         '<input type="submit" value="Отправить" class="Button FormButton">' +
-//         '</form>';
-//     document.getElementById("feedbackButton").innerHTML = form;
-// });
-//
-// contactsButton.addEventListener('click', function () {
-//     let form = '<form class="Form">\n' +
-//         '<h2>Phone:</h2>' +
-//         '<h2>' + phone + '</h2>' +
-//         '<h2>Email:</h2>' +
-//         '<h2>' + email + '</h2>' +
-//         '</form>';
-//     document.getElementById("contactsButton").innerHTML = form;
-// });
-//
-// window.onclick = function (e) {
-//     if (e.target === getForPrintButton || e.target === feedbackButton || e.target === contactsButton) {
-//         document.getElementById("getForPrintButton").innerHTML = '<h1> Get for print </h1>';
-//         document.getElementById("feedbackButton").innerHTML = '<h1> Feedback </h1>';
-//         document.getElementById("contactsButton").innerHTML = '<h1> Get contacts </h1>';
-//     }
-// };
+$(document).ready(function () {
+    $("#getForPrintButton").click(function () {
+        window.print();
+    });
+});
 
-// getForPrintButton.addEventListener('click', function () {
-//
-// });
+
 

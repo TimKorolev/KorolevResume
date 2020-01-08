@@ -1,3 +1,4 @@
+
 .MainSection {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50px, 600px));
@@ -27,86 +28,98 @@
     grid-gap: 5px 5px;
 }
 
-@media screen and (max-width: 1250px) {
+#contactsContent {
+    grid-template-columns: repeat(auto-fill, minmax(60px, 300px));
+}
 
+#contactsForPrint{
+    display: none;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
+    justify-content: center;
+}
+
+@media screen and (max-width: 1250px) {
 
     .Section {
         display: grid;
-	justify-content: center;
-	 grid-template-columns: repeat(auto-fill, minmax(320px, 800px));
-    }
-	
-.SubSection {
-	justify-content: center;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 800px));
     }
 
-.SubSubSection {
-	justify-content: center;
+    .SubSection {
+        justify-content: center;
     }
 
-   .TopSection h1 {
-	text-align: center;
-}
+    .SubSubSection {
+        justify-content: center;
+    }
+
+    .TopSection h1 {
+        text-align: center;
+    }
 
     .Skills {
         grid-template-columns: repeat(auto-fill, minmax(50px, 80px));
     }
 
-    .Button{
-	max-width: 800px;
+    .Button {
+        max-width: 800px;
     }
 
     .Nameplate {
-	max-width: 800px;
+        max-width: 800px;
     }
-	
-    .BlackBorder{
-	max-width: 800px;
-	justify-content: center;
+
+    .BlackBorder {
+        max-width: 800px;
+        justify-content: center;
     }
 
     .TopImage {
-    width: 200px;
-    height: 130%;
-}
+        width: 200px;
+        height: 130%;
+    }
 
-.TopFrame {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-}
+    .TopFrame {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
 
-.TopPhoto {
-    display: flex;
-    justify-content: center;
-}
-	.Photo {
-	display:none;
-	}
+    .TopPhoto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Photo {
+        display: none;
+    }
 
 }
 
 
 @media screen and (max-width: 600px) {
 
-  .TopImage {
-    width: 100px;
-    height: 130%;
+    .TopImage {
+        width: 100px;
+        height: 130%;
+    }
+
+    .TopFrame {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .TopPhoto {
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.TopFrame {
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    border-radius: 50%;
-}
 
-.TopPhoto {
-    display: flex;
-    justify-content: center;
-}
 
-}
 
 
