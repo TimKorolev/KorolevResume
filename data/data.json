@@ -3,22 +3,35 @@
   "profession": "QA Automation engineer",
   "contacts": {
     "phone": "+791111111",
-    "email": "same @mail.com"
+    "email": "same @mail.com",
+    "linkedin":"linkedin.cn/in/timofei-k-1705b5174"
   },
   "skills": [
     "BDD",
+    "TDD",
     "QA",
+    "Tests",
     "Scrum",
     "Agile",
     "Jira",
+    "TFS",
     "Jenkins",
     "Java 8 SE",
+    "Groovy",
     "SQL",
     "HTML",
     "XML",
+    "MQ",
+    "API",
+    "REST",
+    "SOAP",
     "Git",
     "Python",
+    "JS",
+    "JQuery",
     "Selenium",
+    "Selenide",
+    "Allure",
     "Jdbc",
     "Junit",
     "Json",
@@ -50,9 +63,38 @@
   "experience": [
     {
       "employer": "PJSC Sberbank",
-      "position": "Middle software developer",
-      "since": "July 2019",
+      "photo":"",
+      "ref":"www.sberbank.com/ru",
+      "position": "Middle test automation engineer",
+      "since": "April 2019",
       "to": "",
+      "description": "Designing a test model"
+    },
+    {
+      "employer": "eKassir ",
+      "photo":"",
+      "ref":"ekassir.com/en/",
+      "position": "Junior test engineer",
+      "since": "July 2018",
+      "to": "April 2019",
+      "description": "Designing a test model"
+    },
+    {
+      "employer": "Pilot plant Intergal",
+      "photo":"",
+      "ref":"www.oz-integral.ru/about/",
+      "position": "Junior engineer",
+      "since": "April 2017",
+      "to": "July 2018",
+      "description": "Designing a test model"
+    },
+     {
+      "employer": "ITMO University",
+      "photo":"",
+      "ref":"www.ifmo.ru/ru/",
+      "position": "Junior researcher",
+      "since": "September 2016",
+      "to": "July 2017",
       "description": "Designing a test model"
     }
   ],
