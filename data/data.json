@@ -40,11 +40,11 @@
     "TestNG"
   ],
   "courses": [
-    "Java core (epam)",
-    "Java automation test (epam)",
-    "Algorithms: theory and practice (stepik)",
-    "Algorithms: data structures (stepik)",
-    "Python programming (stepik)"
+    "Java core (Epam)",
+    "Java automation test (Epam)",
+    "Algorithms: theory and practice (Stepik)",
+    "Algorithms: data structures (Stepik)",
+    "Python programming (Stepik)"
   ],
   "educations": [
     {
@@ -67,7 +67,7 @@
       "ref":"www.sberbank.com/ru",
       "position": "Middle test automation engineer",
       "since": "April 2019",
-      "to": "still",
+      "to": "",
       "description": "Designing a test model"
     },
     {
