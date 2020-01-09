@@ -48,7 +48,7 @@ $.getJSON('data/data.json', function (data) {
         var to;
         var since;
         
-        since = experiences[i].since;
+        since = 'Since' + experiences[i].since;
         
         if(experience.to === ""){
             to = '';
@@ -61,7 +61,7 @@ $.getJSON('data/data.json', function (data) {
             '<div class="BlackBorder">\n' +
             '            <h1>' + experiences[i].employer + ', ' + experiences[i].position + '</h1>\n' +
             '            <div class="Nameplate Worked">\n' +
-            '                <h1> Since ' + exp + '</h1>\n' +
+            '                <h1>' + exp + '</h1>\n' +
             '            </div>\n' +
             '            <div class="description">\n' +
             '                <ul>\n' +
