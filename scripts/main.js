@@ -48,9 +48,9 @@ $.getJSON('data/data.json', function (data) {
         var to;
         var since;
         
-        since = 'Since' + experiences[i].since;
+        since = 'Since ' + experiences[i].since;
         
-        if(experience.to === ""){
+        if(experience.to == ""){
             to = '';
         } else{
             to = ' to ' + experiences[i].to;
