@@ -4,7 +4,12 @@
         size: 8.5in 11in;
         margin: 1cm
     }
-
+    
+    .TopSection {
+        display: grid;
+        grid-template-columns: 600px 600px 0px;
+    }
+    
     #contactsForPrint{
         display: grid;
     }
@@ -25,11 +30,6 @@
         grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
     }
     
-    .TopSection {
-        display: grid;
-        grid-template-columns: 600px 600px 0px;
-    }
-
     .SubSection {
         justify-content: center;
     }
