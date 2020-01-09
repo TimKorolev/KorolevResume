@@ -43,8 +43,20 @@ $.getJSON('data/data.json', function (data) {
     document.getElementById("education").innerHTML = educationData;
 
     var experienceData = '';
+   
     for (let i = 0; i < experiences.length; i++) {
-        var exp = experiences[i].since + (experience.to === "" ? '' : ' to ' + experiences[i].to);
+        var to;
+        var since;
+        
+        since = experiences[i].since;
+        
+        if(experience.to === ""){
+            to = '';
+        } else{
+            to = ' to ' + experiences[i].to;
+        }
+        
+        var exp = since + to;
         experienceData +=
             '<div class="BlackBorder">\n' +
             '            <h1>' + experiences[i].employer + ', ' + experiences[i].position + '</h1>\n' +
