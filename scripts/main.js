@@ -43,19 +43,27 @@ $.getJSON('data/data.json', function (data) {
     document.getElementById("education").innerHTML = educationData;
 
     var experienceData = '';
-   
+
     for (let i = 0; i < experiences.length; i++) {
         var to;
         var since;
-        
+        var description = '<ul>\n';
+        var employerPhoto = experiences[i].photo;
+
+        for (let j = 0; j < experiences[i].description.length; j++) {
+            description += '<li>' + experiences[i].description[j] + '</li>\n';
+        }
+
+        description += '</ul>';
+
         since = 'Since ' + experiences[i].since;
-        
-        if(experiences[i].to === ""){
+
+        if (experiences[i].to === "") {
             to = '';
-        } else{
+        } else {
             to = ' to ' + experiences[i].to;
         }
-        
+
         var exp = since + to;
         experienceData +=
             '<div class="BlackBorder">\n' +
@@ -65,13 +73,12 @@ $.getJSON('data/data.json', function (data) {
             '            </div>\n' +
             '            <div class="description">\n' +
             '                <ul>\n' +
-            experiences[i].description +
+            description +
             '                </ul>\n' +
             '            </div>\n' +
             '        </div>';
     }
     document.getElementById("experience").innerHTML = experienceData;
-
     document.getElementById("aboutMe").innerHTML = aboutMe;
 
     var coursesData = '';

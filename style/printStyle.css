@@ -4,13 +4,8 @@
         size: 8.5in 11in;
         margin: 1cm
     }
-    
-    .TopSection {
-        display: grid;
-        grid-template-columns: 600px 600px 0px;
-    }
-    
-    #contactsForPrint{
+
+    #contactsForPrint {
         display: grid;
     }
 
@@ -27,10 +22,16 @@
     .Section {
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 355px));
         grid-gap: 1px 1px;
     }
-    
+
+    .TopSection {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+    }
+
     .SubSection {
         justify-content: center;
     }
