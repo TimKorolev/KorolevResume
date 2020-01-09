@@ -28,6 +28,7 @@
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+        grid-gap: 1px 1px;
     }
     
     .SubSection {
