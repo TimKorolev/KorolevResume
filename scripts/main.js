@@ -50,7 +50,7 @@ $.getJSON('data/data.json', function (data) {
         
         since = 'Since ' + experiences[i].since;
         
-        if(experience[i].to == ""){
+        if(experiences[i].to === ""){
             to = '';
         } else{
             to = ' to ' + experiences[i].to;
