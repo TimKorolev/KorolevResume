@@ -45,16 +45,13 @@ $.getJSON('data/data.json', function (data) {
     var experienceData = '';
 
     for (let i = 0; i < experiences.length; i++) {
-        let careerStartDateInTest = new Date("July 2018");
-        let totalExperienceScore = null;
+        let careerStartDateInTest = new Date("2018-06-01");
         let totalExperienceScoreInTest = null;
 
         if (i === experiences.length - 1) {
-            var careerStartDate = new Date(experiences[i].since);
             var currentTime = Date.now();
-            totalExperienceScore = (currentTime - careerStartDate.getTime()) / 3.154e+10;
             totalExperienceScoreInTest = (currentTime - careerStartDateInTest.getTime()) / 3.154e+10;
-            document.getElementById("experienceHeader").innerHTML = 'Total: ' + totalExperienceScore.toFixed(1) + ' years. In test: ' + totalExperienceScoreInTest.toFixed(1) + ' years.';
+            document.getElementById("experienceHeader").innerHTML = 'In testing: ' + totalExperienceScoreInTest.toFixed(1) + ' years.';
         }
 
         var to;
