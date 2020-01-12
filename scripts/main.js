@@ -45,7 +45,7 @@ $.getJSON('data/data.json', function (data) {
     var experienceData = '';
 
     for (let i = 0; i < experiences.length; i++) {
-        let careerStartDateInTest = new Date("July 2018");;
+        let careerStartDateInTest = new Date("2012-06-22");
         let totalExperienceScore = null;
         let totalExperienceScoreInTest = null;
 
