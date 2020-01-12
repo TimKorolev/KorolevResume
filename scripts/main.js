@@ -1,7 +1,6 @@
 let phone = null;
 let email = null;
-let formLock = false;
-let opening = true;
+
 
 $.getJSON('data/data.json', function (data) {
     let name = data.name;
@@ -13,6 +12,7 @@ $.getJSON('data/data.json', function (data) {
     let experiences = data.experience;
     let aboutMe = data.aboutMe;
     let courses = data.courses;
+
 
     document.getElementById("name").innerHTML = name;
     document.getElementById("profession").innerHTML = profession;
@@ -45,10 +45,21 @@ $.getJSON('data/data.json', function (data) {
     var experienceData = '';
 
     for (let i = 0; i < experiences.length; i++) {
+        let careerStartDateInTest = new Date("July 2018");;
+        let totalExperienceScore = null;
+        let totalExperienceScoreInTest = null;
+
+        if (i === experiences.length - 1) {
+            var careerStartDate = new Date(experiences[i].since);
+            var currentTime = Date.now();
+            totalExperienceScore = (currentTime - careerStartDate.getTime()) / 3.154e+10;
+            totalExperienceScoreInTest = (currentTime - careerStartDateInTest.getTime()) / 3.154e+10;
+            document.getElementById("experienceHeader").innerHTML = 'Experience, total: ' + totalExperienceScore.toFixed(1) + ' years, in test: ' + totalExperienceScoreInTest.toFixed(1) + ' years';
+        }
+
         var to;
         var since;
         var description = '<ul>\n';
-        var employerPhoto = experiences[i].photo;
 
         for (let j = 0; j < experiences[i].description.length; j++) {
             description += '<li>' + experiences[i].description[j] + '</li>\n';
@@ -87,7 +98,6 @@ $.getJSON('data/data.json', function (data) {
     }
 
     document.getElementById("courses").innerHTML = coursesData;
-    document.getElementById("feedbackForm").setAttribute("action", email);
 });
 
 $(document).ready(function () {
@@ -99,29 +109,11 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $("#feedbackButton").click(function () {
-        if (formLock === false) {
-            $("#feedbackContent").slideToggle("slow");
-            $(this).toggleClass("active");
-            if (opening === true) {
-                formLock = true;
-            }
-        }
-    });
-});
-
-$(document).ready(function () {
-    $("#sendInfoForFeedback").click(function () {
-        formLock = false;
-        opening = false;
-    })
-});
-
-$(document).ready(function () {
     $("#getForPrintButton").click(function () {
         window.print();
     });
 });
+
 
 
 
