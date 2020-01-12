@@ -54,7 +54,7 @@ $.getJSON('data/data.json', function (data) {
             var currentTime = Date.now();
             totalExperienceScore = (currentTime - careerStartDate.getTime()) / 3.154e+10;
             totalExperienceScoreInTest = (currentTime - careerStartDateInTest.getTime()) / 3.154e+10;
-            document.getElementById("experienceHeader").innerHTML = 'Experience, total: ' + totalExperienceScore.toFixed(1) + ' years, in test: ' + totalExperienceScoreInTest.toFixed(1) + ' years';
+            document.getElementById("experienceHeader").innerHTML = 'Total: ' + totalExperienceScore.toFixed(1) + ' years. In test: ' + totalExperienceScoreInTest.toFixed(1) + ' years.';
         }
 
         var to;
