@@ -24,7 +24,7 @@
 .Button {
     color: white;
     border-radius: 20px;
-    transition: background 2.0s ease-out;
+    border-width: 1px;
     max-width: 300px;
     max-height: 400px;
     padding: 7px;

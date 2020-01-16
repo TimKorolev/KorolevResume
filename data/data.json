@@ -2,19 +2,22 @@
   "name": "Timofei Korolev",
   "profession": "QA Automation engineer",
   "contacts": {
-    "phone": "+791111111",
-    "email": "same @mail.com"
+    "phone": "+79118186419",
+    "email": "tkkorolev@yandex.ru"
   },
   "skills": [
     "QA",
     "Test",
     "BDD",
-    "TDD",
+    "Cucumber",
+    "Jbehave",
+    "Gherkin",
     "Java 8 SE",
     "Selenium",
     "Maven",
     "Git",
     "Allure",
+    "HP ALM",
     "Agile",
     "Jira",
     "MQ",
@@ -27,6 +30,7 @@
     "JS",
     "TFS",
     "HTML",
+    "CSS",
     "API",
     "Json",
     "REST",
@@ -58,7 +62,7 @@
   ],
   "experience": [
     {
-      "employer": "PJSC Sberbank",
+      "employer": "PJSC Sberbank of Russia",
       "position": "Middle test automation engineer",
       "since": "April 2019",
       "to": "",
@@ -70,7 +74,7 @@
       ]
     },
     {
-      "employer": "eKassir",
+      "employer": "EKassir LLC",
       "position": "Junior test engineer",
       "since": "July 2018",
       "to": "April 2019",
@@ -101,10 +105,10 @@
       "since": "September 2016",
       "to": "July 2017",
       "description": [
-        "Designing a test model",
-        "Designing a test model",
-        "Designing a test model",
-        "Designing a test model"
+        "Designing a test model dsfsdfsdfsdfsdfsdfsdfsdf gfdgdfgdfg fdg fdg dfgdfgdfg df gfdgdfgdfgdfgdfg dfg dfgdfg",
+        "Designing a test model sdfsdfsdfsdfsdf",
+        "Designing a test modelsdfsdf",
+        "Designing a test modelsdfsdf"
       ]
     }
   ],
