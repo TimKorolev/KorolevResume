@@ -46,6 +46,7 @@
 
     .Skills {
         grid-template-columns: repeat(auto-fill, minmax(50px, 80px));
+        border-width: 0px;
     }
 
     .Button {
@@ -80,6 +81,54 @@
     .TopPhoto {
         display: flex;
         justify-content: center;
+    }
+
+    .BorderNameplate {
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 20px;
+    }
+
+    .BlackBorder {
+        color: black;
+        background: white;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 20px;
+    }
+
+    .Education {
+        color: black;
+        background: white;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 20px;
+    }
+
+    .Worked {
+        color: black;
+        background: white;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 20px;
+    }
+
+    .TopSection {
+        color: black;
+        background: white;
+        min-height: 30px;
+    }
+
+    h1 {
+        color: black;
+    }
+
+    li {
+        color: black;
     }
 
 }
