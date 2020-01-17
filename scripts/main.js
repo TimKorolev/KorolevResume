@@ -56,14 +56,13 @@ $.getJSON('data/data.json', function (data) {
 
         var to;
         var since;
-        var description = '<ul>\n';
+        var description = '';
 
         for (let j = 0; j < experiences[i].description.length; j++) {
             description += '<li>' + experiences[i].description[j] + '</li>\n';
         }
 
-        description += '</ul>';
-
+        description = '<ul>' + description +'</ul>';
         since = 'Since ' + experiences[i].since;
 
         if (experiences[i].to === "") {
@@ -80,9 +79,7 @@ $.getJSON('data/data.json', function (data) {
             '                <h1>' + exp + '</h1>\n' +
             '            </div>\n' +
             '            <div class="description">\n' +
-            '                <ul>\n' +
             description +
-            '                </ul>\n' +
             '            </div>\n' +
             '        </div>';
     }
