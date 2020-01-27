@@ -67,10 +67,12 @@
       "since": "April 2019",
       "to": "",
       "description": [
-        "Designing a test model",
-        "Designing a test model",
-        "Designing a test model",
-        "Designing a test model"
+        "Development of software testing documentation.",
+        "Manual new-functional testing for web applications.",
+        "Development of smoke/regress/ api/ui autotest for web applications.",
+        "Development of pipeline for applications.",
+        "Development of test framework.",
+        "Designing a test model."
       ]
     },
     {
@@ -86,7 +88,7 @@
       ]
     },
     {
-      "employer": "JSC INTEGRAL EXPERIMENTAL PLANT",
+      "employer": "JSC Integral",
       "position": "Junior engineer",
       "since": "April 2017",
       "to": "July 2018",
