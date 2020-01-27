@@ -72,7 +72,7 @@
       "description": [
         "Development of software testing documentation.",
         "Manual new-functional testing for web applications.",
-        "Development of smoke/regress/ api/ui autotest for web applications.",
+        "Development of smoke/regress/ api/ui autotests for web applications.",
         "Development of pipeline for applications.",
         "Development of test framework.",
         "Designing a test model."
@@ -86,7 +86,7 @@
       "description": [
         "Development of software testing documentation.",
         "Manual testing for web applications.",
-        "Development of autotest for web applications.",
+        "Development of autotests for web applications.",
         "Manual testing for ATM applications."
       ]
     },
