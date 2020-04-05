@@ -11,39 +11,20 @@
     "BDD",
     "Cucumber",
     "Jbehave",
-    "Gherkin",
     "Java 8 SE",
     "Selenium",
     "Maven",
     "Git",
     "Allure",
-    "HP ALM",
-    "Test Man.",
     "Agile",
     "Jira",
-    "MQ",
-    "XML",
     "SQL",
     "Jdbc",
     "Jenkins",
     "Groovy",
-    "Python",
-    "JS",
-    "TFS",
-    "HTML",
-    "CSS",
-    "API",
-    "Postman",
-    "Fiddler",
-    "Json",
-    "REST",
-    "SOAP",
-    "JQuery",
-    "Junit",
-    "TestNG"
+    "Junit"
   ],
   "courses": [
-    "Java core (Epam)",
     "Java automation test (Epam)",
     "Algorithms: theory and practice (Stepik)",
     "Algorithms: data structures (Stepik)",
@@ -114,5 +95,5 @@
       ]
     }
   ],
-  "aboutMe": "My QA story began almost 2 years ago. I was hired as a testing engineer and worked in a project where I needed the skills of testing documentation, drawing up checklists and test cases for documentation (sometimes not for documentation). In the project, I mostly engaged in manual UI testing, but there were cases with APIs, for testing we used tools such as Fiddler and Postman. After six months of work, I was transferred to the staff of auto testers. Where the UI test framework was issued, on which I had to study C # and Selenium. In the next project, our team wrote a Java framework from scratch using Junit, Selenide, Gherkin, and JBehave. For reports, we used Allure. I also took on a small part of CI (Jenkins). With the development of the framework, we began to write tests for the UI using Selenide. I plan to further develop in the field of testing as a specialist. I would like to work in a company that is known worldwide for its quality products."
+  "aboutMe": "<p> My QA story began almost 2 years ago. I was hired as a testing engineer and worked in a project where I needed the skills of testing documentation, drawing up checklists and test cases for documentation (sometimes not for documentation). In the project, I mostly engaged in manual UI testing, but there were cases with API, for testing we used tools such as Fiddler and Postman. After six months of work, I was transferred to the staff of auto testers. Where the UI test framework was issued, on which I had to study C# and Selenium.</p><p>In the next project, our team wrote a Java framework from scratch using Junit, Selenide, Gherkin and JBehave. For reports, we used Allure. I also took on a small part of CI (Jenkins). With the development of the framework, we began to write tests for the UI using Selenide.</p><p>I plan to further develop in the field of testing as a specialist. I would like to work in a company that is known worldwide for its quality products.</p>"
 }

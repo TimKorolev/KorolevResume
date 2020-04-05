@@ -4,6 +4,7 @@
     margin: 0;
     font-family: "Comfortaa", cursive;
     font-size: small;
+    line-height: 1.5;
 }
 
 .Section {
@@ -164,6 +165,11 @@
 
 #feedbackContent {
     display: none ;
+}
+
+#aboutMe {
+    text-indent: 20px;
+    text-align: justify;
 }
 
 

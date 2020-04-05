@@ -5,6 +5,10 @@
         margin: 1cm
     }
 
+    * {
+        line-height: 1;
+    }
+
     #contactsForPrint {
         display: grid;
     }
@@ -129,6 +133,11 @@
 
     li {
         color: black;
+    }
+
+    #aboutMe {
+        text-indent: 20px;
+        text-align: justify;
     }
 
 }
