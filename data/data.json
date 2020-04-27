@@ -3,7 +3,8 @@
   "profession": "QA Automation engineer",
   "contacts": {
     "phone": "+7********",
-    "email": "tkkorolev@yandex.ru"
+    "email": "tkkorolev@yandex.ru",
+    "github": "https://github.com/TimKorolev"
   },
   "skills": [
     "QA",
@@ -78,7 +79,7 @@
       "to": "July 2018",
       "description": [
         "Development of documentation of electronic equipment.",
-        "Correction of microcontroller algorithmы.",
+        "Correction of microcontroller algorithms.",
         "Сonducting smoke and regress product testing.",
         "Design and manufacture of mock-ups for testing."
       ]

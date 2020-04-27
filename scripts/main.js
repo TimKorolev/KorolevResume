@@ -7,6 +7,7 @@ $.getJSON('data/data.json', function (data) {
     let profession = data.profession;
     phone = data.contacts.phone;
     email = data.contacts.email;
+    github = data.contacts.github;
     let skills = data.skills;
     let educations = data.educations;
     let experiences = data.experience;
@@ -99,6 +100,12 @@ $(document).ready(function () {
         $("#contactsContent").slideToggle("slow");
         $(this).toggleClass("active");
         document.getElementById("contactsContent").style.display = "grid";
+    });
+});
+
+$(document).ready(function () {
+    $("#gitHubButton").click(function () {
+        window.open(github);
     });
 });
 
