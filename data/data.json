@@ -1,35 +1,29 @@
 {
-  "name": "Timofei Korolev",
-  "profession": "QA Automation engineer",
+  "name": "-< Timofei Korolev >-",
+  "profession": "QA, Automation <-> Performance, Engineer, Software developer, Philanthropist",
   "contacts": {
     "phone": "+7********",
     "email": "tkkorolev@yandex.ru",
     "github": "https://github.com/TimKorolev"
   },
   "skills": [
-    "QA",
-    "Test",
-    "BDD",
+    "Java",
+    "Kotlin",
+    "Scala",
+    "Groovy",
+    "Python",
+    "Gatling",
+    "Maven",
+    "Gradle",
+    "Git",
+    "Jenkins",
+    "SQL",
+    "Junit",
+    "TeamCity",
+    "Selenium",
     "Cucumber",
     "Jbehave",
-    "Java 8 SE",
-    "Selenium",
-    "Maven",
-    "Git",
-    "Allure",
-    "Agile",
-    "Jira",
-    "SQL",
-    "Jdbc",
-    "Jenkins",
-    "Groovy",
-    "Junit"
-  ],
-  "courses": [
-    "Java automation test (Epam)",
-    "Algorithms: theory and practice (Stepik)",
-    "Algorithms: data structures (Stepik)",
-    "Python programming (Stepik)"
+    "Allure"
   ],
   "educations": [
     {
@@ -47,10 +41,19 @@
   ],
   "experience": [
     {
-      "employer": "Systemically significant bank of Russia",
+      "employer": "JetBrains s.r.o.",
+      "position": "Performance engineer",
+      "since": "September 2020",
+      "to": "",
+      "description": [
+        "Development of software testing documentation."
+      ]
+    },
+    {
+      "employer": "PJSC Sberbank",
       "position": "Middle test automation engineer",
       "since": "April 2019",
-      "to": "",
+      "to": "September 2020",
       "description": [
         "Development of software testing documentation.",
         "Manual new-functional testing for web applications.",

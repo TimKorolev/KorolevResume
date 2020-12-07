@@ -1,25 +1,30 @@
 
 .MainSection {
+    justify-content: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 600px));
+    grid-template-columns: 800px;
     grid-gap: 1px 1px;
 }
 
 .TopSection {
     display: grid;
-    grid-template-columns: 600px 600px 0px;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(2000px, 1000px));
 }
 
 .MiddleSection {
+    justify-content: left;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 600px));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
     grid-gap: 1px 1px;
 }
 
 .Skills {
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(90px, 150px));
-    grid-gap: 1px 1px;
+    grid-gap: 10px 0px;
 }
 
 .Form {
@@ -32,9 +37,26 @@
     grid-template-columns: repeat(auto-fill, minmax(60px, 300px));
 }
 
-#contactsForPrint{
+#contactsForPrint {
     display: none;
     grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
+    justify-content: center;
+}
+
+.TopImage {
+    width: 200px;
+    height: 130%;
+}
+
+.TopFrame {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.TopPhoto {
+    display: flex;
     justify-content: center;
 }
 
@@ -44,18 +66,6 @@
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(auto-fill, minmax(320px, 800px));
-    }
-
-    .SubSection {
-        justify-content: center;
-    }
-
-    .SubSubSection {
-        justify-content: center;
-    }
-
-    .TopSection h1 {
-        text-align: center;
     }
 
     .Skills {
@@ -73,27 +83,6 @@
     .BlackBorder {
         max-width: 800px;
         justify-content: center;
-    }
-
-    .TopImage {
-        width: 200px;
-        height: 130%;
-    }
-
-    .TopFrame {
-        width: 200px;
-        height: 200px;
-        overflow: hidden;
-        border-radius: 50%;
-    }
-
-    .TopPhoto {
-        display: flex;
-        justify-content: center;
-    }
-
-    .Photo {
-        display: none;
     }
 
 }

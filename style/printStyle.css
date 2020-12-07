@@ -17,6 +17,12 @@
         display: none;
     }
 
+    .Divider {
+        display: block;
+        color: gray;
+        height: 1px;
+    }
+
     .Skills {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(90px, 150px));
@@ -26,7 +32,7 @@
     .Section {
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 355px));
+        grid-template-columns: repeat(auto-fill, minmax(300px, 355px));
         grid-gap: 1px 1px;
     }
 
@@ -64,10 +70,6 @@
     .BlackBorder {
         max-width: 800px;
         justify-content: center;
-    }
-
-    .Photo {
-        display: none;
     }
 
     .TopImage {

@@ -12,8 +12,6 @@ $.getJSON('data/data.json', function (data) {
     let educations = data.educations;
     let experiences = data.experience;
     let aboutMe = data.aboutMe;
-    let courses = data.courses;
-
 
     document.getElementById("name").innerHTML = name;
     document.getElementById("profession").innerHTML = profession;
@@ -35,9 +33,9 @@ $.getJSON('data/data.json', function (data) {
     var educationData = '';
     for (let i = 0; i < educations.length; i++) {
         educationData += '<div class="BlackBorder">\n' +
-            '<h1>' + educations[i].university + ', ' + educations[i].department + '</h1>\n' +
+            '<h2>' + educations[i].university + ', ' + educations[i].department + '</h2>\n' +
             '<div class="Nameplate Education">\n' +
-            '<h1>' + educations[i].grade + ' since ' + educations[i].expireData + '</h1>\n' +
+            '<h3>' + educations[i].grade + ' since ' + educations[i].expireData + '</h3>\n' +
             '</div>\n' +
             '</div>\n';
     }
@@ -52,7 +50,7 @@ $.getJSON('data/data.json', function (data) {
         if (i === experiences.length - 1) {
             var currentTime = Date.now();
             totalExperienceScoreInTest = (currentTime - careerStartDateInTest.getTime()) / 3.154e+10;
-            document.getElementById("experienceHeader").innerHTML = 'In testing: ' + totalExperienceScoreInTest.toFixed(1) + ' years.';
+            document.getElementById("experienceHeader").innerHTML = 'working as a QA for ' + totalExperienceScoreInTest.toFixed(1) + ' years.';
         }
 
         var to;
@@ -64,20 +62,20 @@ $.getJSON('data/data.json', function (data) {
         }
 
         description = '<ul>' + description +'</ul>';
-        since = 'Since ' + experiences[i].since;
+        since = experiences[i].since;
 
         if (experiences[i].to === "") {
             to = '';
         } else {
-            to = ' to ' + experiences[i].to;
+            to = ' --> ' + experiences[i].to;
         }
 
         var exp = since + to;
         experienceData +=
             '<div class="BlackBorder">\n' +
-            '            <h1>' + experiences[i].employer + ', ' + experiences[i].position + '</h1>\n' +
+            '            <h2>' + experiences[i].employer + ', ' + experiences[i].position + '</h2>\n' +
             '            <div class="Nameplate Worked">\n' +
-            '                <h1>' + exp + '</h1>\n' +
+            '                <h3>' + exp + '</h3>\n' +
             '            </div>\n' +
             '            <div class="description">\n' +
             description +
@@ -86,13 +84,6 @@ $.getJSON('data/data.json', function (data) {
     }
     document.getElementById("experience").innerHTML = experienceData;
     document.getElementById("aboutMe").innerHTML = aboutMe;
-
-    var coursesData = '';
-    for (let i = 0; i < courses.length; i++) {
-        coursesData += '<li>' + courses[i] + '</li>'
-    }
-
-    document.getElementById("courses").innerHTML = coursesData;
 });
 
 $(document).ready(function () {
@@ -114,8 +105,5 @@ $(document).ready(function () {
         window.print();
     });
 });
-
-
-ain
 
 
